@@ -1,0 +1,153 @@
+*{
+    font-family: sans-serif;
+}
+/* ESTILOS DEL BOTON QUE DESPLEGA EL DIV CONTENEDOR  */
+#btnHidden{
+    display: none;
+}
+.panel-group {
+    margin-bottom: 22px;
+}
+.panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 2px;
+}
+.panel-default {
+    border-color: #dddddd;
+}
+.block-beneficios-wrapper .block-beneficios-panel .panel-heading {
+    background: rgba(57, 105, 244, 0.7);
+    border-radius: 5px;
+}
+.panel-heading:hover {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+	transform: scale(1);
+	animation: pulse 2s infinite;
+}
+.panel-default > .panel-heading {
+    color: #fff;
+    /* background-color: #f5f5f5; */
+    border-color: #dddddd;
+}
+.panel-group .panel-heading {
+    border-bottom: 0;
+    /* border-bottom-color: currentcolor; */
+}
+.panel-heading {
+    padding: 12px 16px;
+}
+.block-beneficios-wrapper .block-beneficios-panel a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+[role="button"] {
+    cursor: pointer;
+}
+.block-beneficios-wrapper .block-beneficios-panel a .all-in-servicios {
+    background: rgba(57, 105, 244, 0.9) !important;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid \9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+.caret:hover{
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+	transform: scale(1);
+	animation: pulse 2s infinite;
+}
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+.caret2 {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid \9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    rotate: 180deg;
+}
+.caret2:hover{
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+	transform: scale(1);
+	animation: pulse 2s infinite;
+}
+/* DIV CONTENEDOR */
+#CardContent{
+    display: none;
+}
+li{
+    list-style: none;
+}
+hr{
+    color: #fff;
+}
+.continaer-body-card{
+    background-color: rgba(57, 105, 244, 0.7);
+    padding: 2rem 1.5rem;
+    border-radius: 1rem;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+}
+/* CONTENIDO DE LISTADO DE PUNTOS */
+.contPoint ul li{
+    padding-bottom: .5rem;
+}
+img.imgCheck{
+    width: 15px;
+    height: 15px;
+    padding-right: 5px;
+}
+/* SEGUNDA SECCIÓN, SECCIÓN DE ICONOS DE INFO DE ENVIO, COMPRA Y MÁS */
+.contPointIcon{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 30px 0;
+}
+.card,
+.cash,
+.envio,
+.garantia{
+    display: grid;  
+}
+.card img,
+.cash img,
+.envio img,
+.garantia img{
+        width: 40px;
+        height: auto;
+}
+/* INFO COMPLEMENTARIA */
+.contInfo{
+    text-align: center;
+}
